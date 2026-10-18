@@ -10,6 +10,21 @@
     
 }
 
+@font-face {
+    font-family: "Montserrat";
+    src: url("./Montserrat/Montserrat-VariableFont_wght.ttf") 
+        format("truetype");
+        font-weight: 500 700;
+        font-display: swap;
+}
+
+@font-face {
+    font-family: "Fraunces";
+    src: url("./Fraunces/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf");
+    font-weight: 700;
+    font-display: swap;
+}
+
 .text-preset-1 {
     font-size: 2rem;
     line-height: 1;
