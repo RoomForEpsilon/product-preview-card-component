@@ -92,8 +92,11 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [Optimize Cumulative Layout Shift](https://web.dev/articles/optimize-cls) - Helps to understand how to prevent cumulative layout shift.
+
+- [Jank-free page loading with media aspect ratios](https://blog.logrocket.com/jank-free-page-loading-with-media-aspect-ratios/) - Another on the topic of layout shifts.
+
+- [CSS Gradients](https://css-tricks.com/css3-gradients/) - Taught me how to create the background stripes.
 
 **Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 
