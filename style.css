@@ -1,0 +1,192 @@
+:root {
+    /* Primary colors */
+    --Green-500: hsl(158, 36%, 37%);
+    --Green-700: hsl(158, 42%, 18%);
+    /* Secondary colors */
+    --Black: hsl(212, 21%, 14%);
+    --Grey: hsl(228, 12%, 48%);
+    --Cream: hsl(30, 38%, 92%);
+    --White: hsl(0, 0%, 100%);
+    --Rose: lightpink;
+    /* Spacing */
+    --spacing-40: 2.5rem;
+    --spacing-32: 2rem;
+    --spacing-24: 1.5rem;
+    --spacing-16: 1rem;
+    --spacing-8: .5rem;
+    --spacing-4: .25rem;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url("./Montserrat/Montserrat-VariableFont_wght.ttf") 
+        format("truetype");
+        font-weight: 500 700;
+        font-display: swap;
+}
+
+@font-face {
+    font-family: "Fraunces";
+    src: url("./Fraunces/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf");
+    font-weight: 700;
+    font-display: swap;
+}
+
+.text-preset-1 {
+    font-family: Fraunces, serif;
+    font-size: 2rem;
+    line-height: 1;
+    letter-spacing: 0;
+    font-weight: bold;
+}
+
+.text-preset-2 {
+    font-family: Montserrat, sans-serif;
+    font-size: calc(7rem / 8);
+    line-height: 1.1;
+    letter-spacing: 0px;
+    font-weight: bold;
+}
+
+.text-preset-3 {
+    font-family: Montserrat, sans-serif;
+    font-size: calc(7rem / 8);
+    line-height: 1.6;
+    letter-spacing: 0px;
+    font-weight: 500; 
+}
+
+.text-preset-4 {
+    font-family: Montserrat, sans-serif; 
+    font-size: calc(3rem / 4);
+    line-height: 1.2;
+    letter-spacing: 5px;
+    font-weight: 500;
+}
+
+.text-preset-5 {
+    font-family: Montserrat, sans-serif;
+    font-size: calc(13rem / 16);
+    line-height: 1.2;
+    letter-spacing: 0px;
+    font-weight: 500;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    background-color: var(--Cream);
+    /* background-image: 
+        linear-gradient(
+            to right,
+            var(--Cream),
+            var(--Cream) 5%,
+            var(--Rose) 5%,
+            var(--Rose) 20%,
+            var(--Cream) 20%,
+            var(--Cream) 30%,
+            var(--Rose) 30%,
+            var(--Rose) 45%,
+            var(--Cream) 45%,
+            var(--Cream) 55%,
+            var(--Rose) 55%,
+            var(--Rose) 70%,
+            var(--Cream) 70%,
+            var(--Cream) 80%,
+            var(--Rose) 80%,
+            var(--Rose) 95%,
+            var(--Cream) 95%
+        ); */
+}
+
+article {
+    flex: 1;
+    width: calc(351/375 * 100%);
+    display: flex;
+    flex-direction: column;
+    margin: 5rem auto 0;
+    border-radius: .5rem;
+    /* background-color: hsla(0, 0%, 100%, .5); */
+    background-color: white;
+}
+
+.card-image {
+    width: 100%;
+    height: auto;
+    border-radius: .5rem .5rem 0 0;
+}
+
+.product-category {
+    padding: 2rem;
+    color: var(--Grey)
+}
+ 
+.product-title {
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+}
+
+.product-description {
+    padding: 0 2rem 1rem;
+    color: var(--Grey)
+}
+
+.sale-price {
+    color: var(--Green-500);
+    padding-left: 2rem;
+}
+
+.regular-price {
+    color: var(--Grey);
+    text-decoration: line-through;
+
+}
+
+.prices {
+    padding-bottom: 1rem;
+}
+
+.button-image,
+.add-to-cart-button {
+    background-color: var(--Green-500);
+}
+
+.button-image {
+    padding: .5rem;
+}
+
+.add-to-cart-button {
+    color: var(--White);
+    border-radius: .5rem;
+    padding: .5rem 2rem;
+    margin: 0 2rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.attribution {
+    margin: 1rem;
+    text-align: center;
+    /* background-color: hsla(0, 0%, 100%, .5); */
+    background-color: var(--White);
+    border-radius: .5rem;
+    padding: 1rem;
+}
+
+.attribution a {
+    color: var(--Green-500);
+    text-decoration: none;
+}
+
+.attribution a:visited {
+    color: var(--Green-700);
+}
