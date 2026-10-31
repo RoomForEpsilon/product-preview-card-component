@@ -90,7 +90,7 @@ main {
     width: 100%;
 }
 
-article {
+.card-component {
     flex: 1;
     width: calc(351/375 * 100%);
     display: flex;
@@ -191,7 +191,7 @@ article {
         justify-content: center;
     }
 
-    article {
+    .card-component {
         max-width: 37.5rem;
         max-height: 28.625rem;
         flex-direction: row;
