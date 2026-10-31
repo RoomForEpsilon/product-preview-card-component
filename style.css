@@ -143,15 +143,12 @@ main {
     align-items: center;
 }
 
-.add-to-cart-button {
-    background-color: var(--Green-500);
-}
-
 .button-image {
     padding: .5rem;
 }
 
 .add-to-cart-button {
+    background-color: var(--Green-500);
     color: var(--White);
     border-radius: .5rem;
     padding: .5rem 0;
