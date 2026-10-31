@@ -12,6 +12,7 @@ This is a solution to the [Product preview card component challenge on Frontend 
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Useful resources](#useful-resources)
+  - [AI contribution](#AI-contribution)
 - [Author](#author)
 
 ## Overview
@@ -56,6 +57,10 @@ This will reiterate what I said in the My Process section.  I learned that perce
 - [Jank-free page loading with media aspect ratios](https://blog.logrocket.com/jank-free-page-loading-with-media-aspect-ratios/) - Another article on the topic of layout shifts.
 
 - [CSS Gradients](https://css-tricks.com/css3-gradients/) - Taught me how to create the background stripes that turned out to be not part of the background, but design guides in the Figma file.
+
+### AI contribution
+
+I asked AI questions only after I tried all other ways I could think of to solve a problem.  I also had it run a spelling check on this file.
 
 ## Author
 
