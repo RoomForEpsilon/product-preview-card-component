@@ -14,8 +14,6 @@ This is a solution to the [Product preview card component challenge on Frontend 
   - [Useful resources](#useful-resources)
 - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -36,9 +34,9 @@ Users should be able to:
 
 ## My process
 
-Upon initially seeing the figma file, I thought, "Another card.  More of the same."  However, changing the direction of the card from column to row was not a trivial thing to style.  I'm glad that FrontendMentor takes small steps forward, because I was able to handle the new challenge without being overwhelmed.  Since this section is supposed to be about my process, let's get to that.
+Upon initially seeing the Figma file, I thought, "Another card.  More of the same."  However, changing the direction of the card from column to row was not a trivial thing to style.  I'm glad that Frontend Mentor takes small steps forward, because I was able to handle the new challenge without being overwhelmed.  Since this section is supposed to be about my process, let's get to that.
 
-First, I styled the page for moblie.  I've done this before, so that was easy.  Next I attempted to style the page for tablet.  After I put the media query in and changed the flex-direction from column to row, the card visually broke.  I read a bunch of articles, but none of them helped.  Eventually, I asked ChatGPT to link me to an article that covered the problem that I was facing without telling me the anwer, and it linked to an MSN article about the object-fit attribute.  That fixed part of the card.  I was also reminded that width calculates based on the width of the parent -- not the width of the browser (which I'm sure I was told several times, but didn't matter to me until this project) -- and addding a width to the card's containing element helped as well.  After that, everything fell into place.  Those were my memorable challenges.  
+First, I styled the page for mobile.  I've done this before, so that was easy.  Next I attempted to style the page for tablet.  After I put the media query in and changed the flex-direction from column to row, the card visually broke.  I read a bunch of articles, but none of them helped.  Eventually, I asked ChatGPT to link me to an article that covered the problem that I was facing without telling me the answer, and it linked to an MDN article about the object-fit property.  That fixed part of the card.  I was also reminded that width percentage calculations are based on the width of the parent -- not the width of the browser (which I'm sure I was told several times, but didn't matter to me until this project) -- and adding a width to the card's containing element helped as well.  After that, everything fell into place.  Those were my memorable challenges.  
 
 ### Built with
 
@@ -49,16 +47,16 @@ First, I styled the page for moblie.  I've done this before, so that was easy.  
 
 ### What I learned
 
-This will reiterate what I said in the My Process section.  I learned that the width property calculates based upon the width of the parent element, not the entire browser window.  I also learned a little more about how images are displayed.
+This will reiterate what I said in the My Process section.  I learned that percentage widths are calculated based upon the width of the parent element, not the entire browser window.  I also learned a little more about how images are displayed.
 
 ### Useful resources
 
 - [Optimize Cumulative Layout Shift](https://web.dev/articles/optimize-cls) - Helps to understand how to prevent cumulative layout shift.
 
-- [Jank-free page loading with media aspect ratios](https://blog.logrocket.com/jank-free-page-loading-with-media-aspect-ratios/) - Another on the topic of layout shifts.
+- [Jank-free page loading with media aspect ratios](https://blog.logrocket.com/jank-free-page-loading-with-media-aspect-ratios/) - Another article on the topic of layout shifts.
 
-- [CSS Gradients](https://css-tricks.com/css3-gradients/) - Taught me how to create the background stripes that turned out to be not part of the background, but design guides in the figma file.
+- [CSS Gradients](https://css-tricks.com/css3-gradients/) - Taught me how to create the background stripes that turned out to be not part of the background, but design guides in the Figma file.
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/RoomForEpsilon)
+- Frontend Mentor - [@RoomForEpsilon](https://www.frontendmentor.io/profile/RoomForEpsilon)
